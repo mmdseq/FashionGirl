@@ -1,0 +1,25 @@
+$main-color: #ef9cbb;
+$medium-color: #f7cddd;
+$low-color: #fae1ea;
+$dark-color: #333;
+$darker-color: #8f5d70;
+$very-low-color: #fdf5f9;
+$time-color: #f3b9cf;
+$light-color: rgba(239, 156, 187, 0.9);
+$website-width: 1200px;
+
+$primary-color: rgba(239, 156, 187, 0.75);
+$secondary-color: rgba(239, 156, 187, 0.9);
+// $overlay-color: rgba(24, 39, 51, 0.85);
+$overlay-color: rgba(71, 46, 56, 0.3);
+$overlay-color-500: rgba(255, 255, 255, 0.9);
+$overlay-color-500-2: rgba(255, 255, 255, 0.69);
+$menu-speed: 0.75s;
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
