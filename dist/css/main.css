@@ -806,6 +806,8 @@ body {
         #main-header #main-nav .down-nav .right-icons .fas {
           padding: 0.2rem;
           opacity: 0; }
+        #main-header #main-nav .down-nav .right-icons .menu-wrap .fas {
+          opacity: 1; }
         #main-header #main-nav .down-nav .right-icons > *:nth-child(3) {
           margin-right: 2rem; }
         #main-header #main-nav .down-nav .right-icons .menu-wrap {
