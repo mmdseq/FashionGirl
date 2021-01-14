@@ -376,7 +376,7 @@ body {
         .menu-wrap .menu > div > div {
           // margin: 2rem;
           .p-nav {
-            width: 23rem;
+            width: 25rem;
             text-align: center;
             padding: 1rem;
           }
@@ -1022,6 +1022,7 @@ body {
           .menu-wrap {
             .menu {
               width: 100%;
+              height: 100%;
               & > div {
                 & > div {
                   transform: translateY(-9rem);
@@ -1039,7 +1040,8 @@ body {
                     font-size: 1.4rem;
                   }
                   .p-nav {
-                    width: 26rem;
+                    // width: 26rem;
+                    width: 98%;
                     padding: 0 1.3rem;
                     font-size: 1.2rem;
                   }
@@ -1309,7 +1311,7 @@ body {
         .right-icons {
           .menu-wrap {
             .menu {
-              width: 116.5%;
+              width: 100%;
               height: 100%;
               // background: rgba(255, 255, 255, );
 
@@ -1331,17 +1333,19 @@ body {
                     font-size: 1.2rem;
                   }
                   .p-nav {
-                    width: 21rem;
+                    // width: 20rem;
+                    width: 98%;
                     font-size: 1.1rem;
                   }
                   ul {
                     li {
                       font-size: 1.3rem;
-                      padding: 0.7rem;
+                      padding: 0.5rem;
                     }
                   }
                   justify-content: center;
-                  transform: translateY(-4rem);
+                  transform: translateY(-0.8rem);
+
                   background: $overlay-color-500-2;
                   border-radius: 1%;
                   box-shadow: 1px 1px 30px rgb(255, 255, 255);
@@ -1489,13 +1493,14 @@ body {
               & > *:nth-child(1) {
                 grid-column: 1 / span 2;
               }
-              padding: 0.5rem;
+              padding: 0.4rem;
               i {
-                font-size: 0.8rem;
+                padding-top: 0.4rem;
+                font-size: 0.7rem;
                 padding-left: 0.1rem;
               }
               a {
-                font-size: 0.6rem;
+                font-size: 0.47rem;
                 // padding: 1rem;
 
                 // width: rem;
