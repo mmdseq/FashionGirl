@@ -1552,7 +1552,9 @@ body {
       .supports {
         & > div:nth-child(3) {
           justify-self: center;
-          padding-right: 6.5rem;
+          margin-right: 4rem;
+          padding-right: 2rem;
+          padding-left: 0;
         }
         padding-top: 2rem;
         grid-template-columns: repeat(1, 1fr);
