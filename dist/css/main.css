@@ -97,11 +97,13 @@ a {
   text-decoration: none;
   color: #333; }
 
+html,
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
   background: #fff;
-  color: #333; }
+  color: #333;
+  max-width: 100%; }
 
 .container {
   max-width: 1200px;
@@ -130,7 +132,8 @@ body {
   background: #fae1ea;
   color: #333;
   height: 95vh;
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
   #main-header #showcase .showcase-img {
     display: flex;
     flex-direction: column;

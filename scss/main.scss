@@ -16,11 +16,14 @@ a {
   color: #333;
 }
 
+html,
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
   background: #fff;
   color: #333;
+  max-width: 100%;
+  // overflow-x: hidden;
 }
 
 .container {
@@ -59,6 +62,7 @@ body {
   color: #333;
   height: 95vh;
   position: relative;
+  overflow-x: hidden;
 
   #showcase {
     // position: absolute;
